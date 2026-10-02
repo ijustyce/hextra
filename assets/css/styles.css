@@ -102,3 +102,27 @@ body {
 @import "./components/toc.css";
 @import "./components/archives.css";
 @import "./components/gallery.css";
+
+.pagination {
+    border-top: 1px solid #eee;
+    margin: 120px 0 0;
+    text-align: center;
+}
+
+.algolia-pagination .current .page-number, .pagination .page-number.current {
+    background: #ccc;
+    border-color: #ccc;
+    color: var(--content-bg-color);
+}
+
+.pagination .prev, .pagination .next, .pagination .page-number {
+    border-bottom: 0;
+    border-top: 1px solid #eee;
+    transition: border-color 0.2s ease-in-out;
+}
+
+.pagination .space, .pagination .prev, .pagination .next, .pagination .page-number {
+    display: inline-block;
+    margin: -1px 10px 0;
+    padding: 0 10px;
+}

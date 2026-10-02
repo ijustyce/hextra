@@ -26,6 +26,7 @@
       <!-- Nav -->
       {{ template "sidebar-main" (dict "context" site.Home "pageURL" $pageURL "page" $context "toc" true) -}}
       {{ template "sidebar-footer" }}
+      {{ template "sidebar-mobile" }}
     </ul>
 
     <!-- Sidebar on large screen -->
@@ -56,6 +57,25 @@
     </div>
   {{- end -}}
 </aside>
+
+{{- define "sidebar-mobile" -}}
+  {{- range site.Menus.mobile -}}
+    {{- $name := or (T .Identifier) .Name -}}
+    {{ if eq .Params.type "separator" }}
+      <li class="[word-break:break-word] hx-mt-5 hx-mb-2 hx-px-2 hx-py-1.5 hx-text-sm hx-font-semibold hx-text-gray-900 first:hx-mt-0 dark:hx-text-gray-100">
+        <span class="hx-cursor-default">{{ $name }}</span>
+      </li>
+    {{ else }}
+      {{- $link := .URL -}}
+      {{- with .PageRef -}}
+        {{- if hasPrefix . "/" -}}
+          {{- $link = relLangURL (strings.TrimPrefix "/" .) -}}
+        {{- end -}}
+      {{- end -}}
+      <li>{{ template "sidebar-item-link" dict "active" false "title" $name "link" $link }}</li>
+    {{ end }}
+  {{- end -}}
+{{- end -}}
 
 {{- define "sidebar-main" -}}
   {{ template "sidebar-tree" (dict "context" .context "level" 0 "page" .page "pageURL" .pageURL "toc" (.toc | default false)) }}

@@ -15,6 +15,9 @@
   {{- $pageTitle := $page.LinkTitle | default $page.File.BaseFileName -}}
   {{- $pageLink := $page.RelPermalink -}}
   {{- $data := partial "utils/fragments" (dict "context" $page "type" $indexType) -}}
+  {{- $keywords := $page.Keywords -}}
+  {{- $result := delimit $keywords " " -}}
+  {{ $data = merge $data (dict "" $result) }}
   {{- $output = $output | merge (dict $pageLink (dict "title" $pageTitle "data" $data)) -}}
 {{- end -}}
 

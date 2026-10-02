@@ -3,6 +3,10 @@
 {{ $lang := .lang | default "" }}
 {{ $content := .content }}
 {{ $options := .options | default (dict) }}
+{{ $lines := len (split $content "\n") }}
+{{ if lt $lines 2 }}
+  {{ $options = merge $options (dict "linenos" "false") }}
+{{ end }}
 
 {{- if $filename -}}
   <div class="hextra-code-filename not-prose" dir="auto">
