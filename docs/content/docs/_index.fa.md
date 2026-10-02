@@ -26,7 +26,7 @@ Hextra یک پوسته مدرن، سریع و کامل برای [Hugo][hugo] ا�
 
 {{< callout emoji="❓" >}}
   Hextra هنوز در حال توسعه فعال است.
-  سوال یا بازخوردی دارید؟ با خیال راحت [یک issue باز کنید](https://github.com/imfing/hextra/issues)!
+  سوال یا بازخوردی دارید؟ با خیال راحت [یک issue باز کنید](https://github.com/ijustyce/hextra/issues)!
 {{< /callout >}}
 
 ## بعدی

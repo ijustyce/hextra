@@ -10,7 +10,7 @@ prev: /docs
 
 ## Quick Start from Template
 
-{{< icon "github" >}}&nbsp;[imfing/hextra-starter-template](https://github.com/imfing/hextra-starter-template)
+{{< icon "github" >}}&nbsp;[imfing/hextra-starter-template](https://github.com/ijustyce/hextra-starter-template)
 
 You could quickly get started by using the above template repository.
 
@@ -57,7 +57,7 @@ cd my-site
 hugo mod init github.com/username/my-site
 
 # add Hextra theme
-hugo mod get github.com/imfing/hextra
+hugo mod get github.com/ijustyce/hextra
 ```
 
 Configure `hugo.yaml` to use Hextra theme by adding the following:
@@ -65,7 +65,7 @@ Configure `hugo.yaml` to use Hextra theme by adding the following:
 ```yaml
 module:
   imports:
-    - path: github.com/imfing/hextra
+    - path: github.com/ijustyce/hextra
 ```
 
 ### Create your first content pages
@@ -96,16 +96,16 @@ To update all Hugo modules in your project to their latest versions, run the fol
 hugo mod get -u
 ```
 
-To update Hextra to the [latest released version](https://github.com/imfing/hextra/releases), run the following command:
+To update Hextra to the [latest released version](https://github.com/ijustyce/hextra/releases), run the following command:
 
 ```shell
-hugo mod get -u github.com/imfing/hextra
+hugo mod get -u github.com/ijustyce/hextra
 ```
 
 If you want to try the most recent changes before the next release, update the module to the development branch directly (⚠️ may contain unstable/breaking changes):
 
 ```shell
-hugo mod get -u github.com/imfing/hextra@main
+hugo mod get -u github.com/ijustyce/hextra@main
 ```
 
 See [Hugo Modules](https://gohugo.io/hugo-modules/use-modules/#update-all-modules) for more details.
@@ -144,7 +144,7 @@ git init
 Then, add Hextra theme as a Git submodule:
 
 ```shell
-git submodule add https://github.com/imfing/hextra.git themes/hextra
+git submodule add https://github.com/ijustyce/hextra.git themes/hextra
 ```
 
 Configure `hugo.yaml` to use Hextra theme by adding the following:

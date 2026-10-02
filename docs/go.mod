@@ -1,5 +1,5 @@
-module github.com/imfing/hextra/docs
+module github.com/ijustyce/hextra/docs
 
 go 1.21
 
-replace github.com/imfing/hextra => ../
+replace github.com/ijustyce/hextra => ../

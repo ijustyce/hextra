@@ -26,7 +26,7 @@ Designed for building beautiful websites for documentation, blogs, and websites,
 
 {{< callout emoji="❓" >}}
   Hextra is still in active development.
-  Have a question or feedback? Feel free to [open an issue](https://github.com/imfing/hextra/issues)!
+  Have a question or feedback? Feel free to [open an issue](https://github.com/ijustyce/hextra/issues)!
 {{< /callout >}}
 
 ## Next

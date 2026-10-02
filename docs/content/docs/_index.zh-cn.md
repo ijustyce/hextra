@@ -25,7 +25,7 @@ Hextra 是一个基于 [Tailwind CSS][tailwind-css] 构建的现代化、高性�
 
 {{< callout emoji="❓" >}}
   Hextra 仍在积极开发中。
-  如有疑问或反馈，欢迎[提交 Issue](https://github.com/imfing/hextra/issues)！
+  如有疑问或反馈，欢迎[提交 Issue](https://github.com/ijustyce/hextra/issues)！
 {{< /callout >}}
 
 ## 下一步

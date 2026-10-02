@@ -262,6 +262,6 @@ layouts/_partials/custom/page-end.html
 
 ## سفارشی‌سازی بیشتر
 
-آیا آنچه را که به دنبالش بودید پیدا نکردید؟ با خیال راحت [یک بحث باز کنید](https://github.com/imfing/hextra/discussions) یا به تم کمک کنید!
+آیا آنچه را که به دنبالش بودید پیدا نکردید؟ با خیال راحت [یک بحث باز کنید](https://github.com/ijustyce/hextra/discussions) یا به تم کمک کنید!
 
 [hugo-template-docs]: https://gohugo.io/templates/

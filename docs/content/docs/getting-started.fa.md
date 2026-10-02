@@ -10,7 +10,7 @@ prev: /docs
 
 ## شروع سریع با قالب
 
-{{< icon "github" >}}&nbsp;[imfing/hextra-starter-template](https://github.com/imfing/hextra-starter-template)
+{{< icon "github" >}}&nbsp;[imfing/hextra-starter-template](https://github.com/ijustyce/hextra-starter-template)
 
 می‌توانید با استفاده از مخزن قالب فوق به سرعت شروع به کار کنید.
 
@@ -57,7 +57,7 @@ cd my-site
 hugo mod init github.com/username/my-site
 
 # افزودن تم Hextra
-hugo mod get github.com/imfing/hextra
+hugo mod get github.com/ijustyce/hextra
 ```
 
 فایل `hugo.yaml` را برای استفاده از تم Hextra با افزودن موارد زیر پیکربندی کنید:
@@ -65,7 +65,7 @@ hugo mod get github.com/imfing/hextra
 ```yaml
 module:
   imports:
-    - path: github.com/imfing/hextra
+    - path: github.com/ijustyce/hextra
 ```
 
 ### ایجاد اولین صفحات محتوای شما
@@ -96,10 +96,10 @@ hugo server --buildDrafts --disableFastRender
 hugo mod get -u
 ```
 
-برای به‌روزرسانی Hextra به [آخرین نسخه منتشر شده](https://github.com/imfing/hextra/releases)، دستور زیر را اجرا کنید:
+برای به‌روزرسانی Hextra به [آخرین نسخه منتشر شده](https://github.com/ijustyce/hextra/releases)، دستور زیر را اجرا کنید:
 
 ```shell
-hugo mod get -u github.com/imfing/hextra
+hugo mod get -u github.com/ijustyce/hextra
 ```
 
 برای جزئیات بیشتر، [ماژول‌های Hugo](https://gohugo.io/hugo-modules/use-modules/#update-all-modules) را ببینید.
@@ -137,7 +137,7 @@ git init
 سپس، تم Hextra را به عنوان زیرماژول Git اضافه کنید:
 
 ```shell
-git submodule add https://github.com/imfing/hextra.git themes/hextra
+git submodule add https://github.com/ijustyce/hextra.git themes/hextra
 ```
 
 فایل `hugo.yaml` را برای استفاده از تم Hextra با افزودن موارد زیر پیکربندی کنید:

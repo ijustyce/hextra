@@ -25,7 +25,7 @@ Hextraは、[Tailwind CSS][tailwind-css]を使用して構築された、モダ�
 
 {{< callout emoji="❓" >}}
   Hextra は現在も活発に開発中です。
-  質問やフィードバックがありましたら、[issue を開いて](https://github.com/imfing/hextra/issues)ください！
+  質問やフィードバックがありましたら、[issue を開いて](https://github.com/ijustyce/hextra/issues)ください！
 {{< /callout >}}
 
 ## 次に

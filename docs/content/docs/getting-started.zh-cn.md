@@ -10,7 +10,7 @@ prev: /docs
 
 ## 从模板快速启动
 
-{{< icon "github" >}}&nbsp;[imfing/hextra-starter-template](https://github.com/imfing/hextra-starter-template)
+{{< icon "github" >}}&nbsp;[imfing/hextra-starter-template](https://github.com/ijustyce/hextra-starter-template)
 
 您可以通过使用上述模板仓库快速开始。
 
@@ -57,7 +57,7 @@ cd my-site
 hugo mod init github.com/username/my-site
 
 # 添加Hextra主题
-hugo mod get github.com/imfing/hextra
+hugo mod get github.com/ijustyce/hextra
 ```
 
 配置`hugo.yaml`以使用Hextra主题，添加以下内容：
@@ -65,7 +65,7 @@ hugo mod get github.com/imfing/hextra
 ```yaml
 module:
   imports:
-    - path: github.com/imfing/hextra
+    - path: github.com/ijustyce/hextra
 ```
 
 ### 创建您的内容页面
@@ -96,10 +96,10 @@ hugo server --buildDrafts --disableFastRender
 hugo mod get -u
 ```
 
-要将Hextra更新到[最新发布版本](https://github.com/imfing/hextra/releases)，运行以下命令：
+要将Hextra更新到[最新发布版本](https://github.com/ijustyce/hextra/releases)，运行以下命令：
 
 ```shell
-hugo mod get -u github.com/imfing/hextra
+hugo mod get -u github.com/ijustyce/hextra
 ```
 
 更多详情请参阅[Hugo模块](https://gohugo.io/hugo-modules/use-modules/#update-all-modules)。
@@ -137,7 +137,7 @@ git init
 然后，将Hextra主题添加为Git子模块：
 
 ```shell
-git submodule add https://github.com/imfing/hextra.git themes/hextra
+git submodule add https://github.com/ijustyce/hextra.git themes/hextra
 ```
 
 配置`hugo.yaml`以使用Hextra主题，添加以下内容：

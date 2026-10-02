@@ -10,7 +10,7 @@ prev: /docs
 
 ## テンプレートから始める
 
-{{< icon "github" >}}&nbsp;[imfing/hextra-starter-template](https://github.com/imfing/hextra-starter-template)
+{{< icon "github" >}}&nbsp;[imfing/hextra-starter-template](https://github.com/ijustyce/hextra-starter-template)
 
 上記のテンプレートリポジトリを使用して、すぐに始めることができます。
 
@@ -57,7 +57,7 @@ cd my-site
 hugo mod init github.com/username/my-site
 
 # Hextra テーマを追加
-hugo mod get github.com/imfing/hextra
+hugo mod get github.com/ijustyce/hextra
 ```
 
 `hugo.yaml` を設定して Hextra テーマを使用するようにします:
@@ -65,7 +65,7 @@ hugo mod get github.com/imfing/hextra
 ```yaml
 module:
   imports:
-    - path: github.com/imfing/hextra
+    - path: github.com/ijustyce/hextra
 ```
 
 ### 最初のコンテンツページを作成
@@ -96,10 +96,10 @@ hugo server --buildDrafts --disableFastRender
 hugo mod get -u
 ```
 
-Hextra を[最新リリースバージョン](https://github.com/imfing/hextra/releases)に更新するには、次のコマンドを実行します:
+Hextra を[最新リリースバージョン](https://github.com/ijustyce/hextra/releases)に更新するには、次のコマンドを実行します:
 
 ```shell
-hugo mod get -u github.com/imfing/hextra
+hugo mod get -u github.com/ijustyce/hextra
 ```
 
 詳細については、[Hugo モジュール](https://gohugo.io/hugo-modules/use-modules/#update-all-modules)を参照してください。
@@ -137,7 +137,7 @@ git init
 次に、Hextra テーマを Git サブモジュールとして追加します:
 
 ```shell
-git submodule add https://github.com/imfing/hextra.git themes/hextra
+git submodule add https://github.com/ijustyce/hextra.git themes/hextra
 ```
 
 `hugo.yaml` を設定して Hextra テーマを使用するようにします:

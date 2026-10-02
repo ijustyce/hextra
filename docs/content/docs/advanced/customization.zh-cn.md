@@ -262,6 +262,6 @@ layouts/_partials/custom/page-end.html
 
 ## 进一步自定义
 
-没有找到您需要的内容？欢迎 [发起讨论](https://github.com/imfing/hextra/discussions) 或为主题做出贡献！
+没有找到您需要的内容？欢迎 [发起讨论](https://github.com/ijustyce/hextra/discussions) 或为主题做出贡献！
 
 [hugo-template-docs]: https://gohugo.io/templates/

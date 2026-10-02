@@ -3,8 +3,8 @@ title: Markdown Syntax Guide
 date: 2020-01-01
 authors:
   - name: imfing
-    link: https://github.com/imfing
-    image: https://github.com/imfing.png
+    link: https://github.com/ijustyce
+    image: https://github.com/ijustyce.png
   - name: Octocat
     link: https://github.com/octocat
     image: https://github.com/octocat.png

@@ -99,21 +99,21 @@ layout: wide
   {{< card
         link="https://github.com/axivo/website"
         title="AXIVO Docs"
-        image="https://github.com/imfing/hextra/assets/19806136/f22f0710-23a0-430b-8bad-616283b8a3e5"
+        image="https://github.com/ijustyce/hextra/assets/19806136/f22f0710-23a0-430b-8bad-616283b8a3e5"
         imageStyle="object-fit:cover; aspect-ratio:16/9;"
   >}}
 
   {{< card
         link="https://github.com/infracourse/web"
         title="Stanford CS 40"
-        image="https://github.com/imfing/hextra/assets/5097752/8c29470b-3994-41c8-be9a-5b41476e6f3c"
+        image="https://github.com/ijustyce/hextra/assets/5097752/8c29470b-3994-41c8-be9a-5b41476e6f3c"
         imageStyle="object-fit:cover; aspect-ratio:16/9;"
   >}}
 
   {{< card
         link="https://github.com/helixml/docs"
         title="Helix Docs"
-        image="https://github.com/imfing/hextra/assets/5097752/78045af0-4922-4358-ae73-624770909db6"
+        image="https://github.com/ijustyce/hextra/assets/5097752/78045af0-4922-4358-ae73-624770909db6"
         imageStyle="object-fit:cover; aspect-ratio:16/9;"
   >}}
 
@@ -132,7 +132,7 @@ layout: wide
 
   {{< card link="https://porter.sh/"
         title="Porter"
-        image="https://github.com/imfing/hextra/assets/5097752/401abc3a-b4c3-4336-b95a-a6dd9afbc1de"
+        image="https://github.com/ijustyce/hextra/assets/5097752/401abc3a-b4c3-4336-b95a-a6dd9afbc1de"
         imageStyle="object-fit:cover; aspect-ratio:16/9;"
   >}}
 
@@ -146,12 +146,12 @@ layout: wide
   {{< card
         link="https://github.com/remysheppard/lutheran-confessions"
         title="LutheranConfessions"
-        image="https://github.com/imfing/hextra/assets/5097752/ad6625e4-88cd-4cad-b102-5399997d0359"
+        image="https://github.com/ijustyce/hextra/assets/5097752/ad6625e4-88cd-4cad-b102-5399997d0359"
         imageStyle="object-fit:cover; aspect-ratio:16/9;"
   >}}
 
   {{< card
-        link="https://github.com/imfing/hextra-starter-template/"
+        link="https://github.com/ijustyce/hextra-starter-template/"
         title="Hextra Starter Template"
         image="https://user-images.githubusercontent.com/5097752/263551418-c403b9a9-a76c-47a6-8466-513d772ef0b7.jpg"
         imageStyle="object-fit:cover; aspect-ratio:16/9;"
